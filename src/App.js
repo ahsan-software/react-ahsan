@@ -24,6 +24,7 @@ function App() {
       {cartIsShown && <Cart onClose={HideModal} />}
       <Header onClick={showModal} />
       <main>
+        <h1>check</h1>
         <MealsSummary />
         <AvailableMeals />
       </main>
